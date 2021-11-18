@@ -1,0 +1,1 @@
+DELETE from sales WHERE id = 9;
