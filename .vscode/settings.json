@@ -9,9 +9,19 @@
             "port": 3306,
             "askForPassword": true,
             "driver": "MySQL",
-            "name": "mysql1",
-            "database": "talently",
+            "name": "sql-course-2",
+            "database": "sql-course-2",
             "username": "root"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "postgres",
+            "database": "postgres",
+            "username": "postgres"
         }
     ]
 }
