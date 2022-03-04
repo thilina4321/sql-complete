@@ -39,3 +39,7 @@ Three way joining
 SELECT user_name, photo, comment 
 FROM photos JOIN comment ON comment.user_id = photos.user_id
 JOIN users On users.id = comment.user_id AND user.id = photos.user_id
+
+
+aggregations means looking at several rows to get the single value
+joining means merging several rows at several relational tables to provide multiple values
