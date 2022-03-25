@@ -29,7 +29,7 @@ full JOIN
 
 
 SELECT user_name FROM users 
-RIGHT JOIN comments ON
+FULL JOIN comments ON
 users.id = comments.user_id
 
 [|||||]  |||||||||  [|||||]
