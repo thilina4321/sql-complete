@@ -1,6 +1,9 @@
-INSERT INTO users_surge(first_name, last_name, email, address_id)
+INSERT INTO users_surge(game_id)
 VALUES("gamer first", "gamer last", "gamer@gmail.com", 1),
 ("user2 first", "user 2 last", "user@gmail.com", 3);
+-- INSERT INTO users_surge(first_name, last_name, email, address_id)
+-- VALUES("gamer first", "gamer last", "gamer@gmail.com", 1),
+-- ("user2 first", "user 2 last", "user@gmail.com", 3);
 
 -- INSERT INTO city_surge(address, address_number, city_id)
 -- VALUES("Thilina address", 345, 1 ),
