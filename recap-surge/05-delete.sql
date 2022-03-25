@@ -1,1 +1,1 @@
-DELETE FROM users_surge WHERE id=10;
+DELETE FROM users_surge WHERE id=11 OR id=12;
