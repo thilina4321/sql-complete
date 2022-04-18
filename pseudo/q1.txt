@@ -1,0 +1,28 @@
+begin
+    int total, discount, years, month_spending
+    display " price : "
+    accept total
+    display " Monthly Spending : "
+    accept month_spending
+    display "Total years : "
+    accept total
+    if(month_spending > 20000)
+    begin
+        if(years > 6)
+        begin
+            discount = (total) * (15/100)
+        end
+        else
+        begin
+            discount = 0
+        end
+    end
+    else
+    begin
+        discount = 0
+    end
+    total = total - discount
+    display "Payment : " total
+
+    
+end
